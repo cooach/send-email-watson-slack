@@ -1,0 +1,9 @@
+---
+applications:
+- name: jokebot2019
+  random-route: true
+  instances: 1
+  command: node jokebot2019.js
+  path: .
+  memory: 256m
+  buildpack: https://github.com/cooach/watson-dev-cloud-email-bitkit
