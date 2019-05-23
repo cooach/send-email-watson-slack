@@ -6,4 +6,4 @@ applications:
   command: node jokebot2019.js
   path: .
   memory: 256m
-  buildpack: https://github.com/cooach/watson-dev-cloud-email-bitkit
+  buildpack: https://github.com/cooach/send-email-watson-slack
