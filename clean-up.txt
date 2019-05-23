@@ -1,0 +1,10 @@
+cow 
+pig
+sugar
+cup
+house
+book
+pen 
+shoes
+penball
+watch
