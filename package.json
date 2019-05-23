@@ -1,0 +1,20 @@
+{
+  "name": "totbot",
+  "version": "0.0.1",
+  "description": "botkit-middleware-watson with Botkit and send message in to slack.",
+  "main": "ToTbot.js",
+  "scripts": {
+    "start": "node ToTbot.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "botkit": "^0.6.16",
+    "botkit-middleware-watson": "^1.7.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nodemailer": "^6.1.1"
+  },
+  "engines": {
+    "node": "8.12.0"
+  }
+}
