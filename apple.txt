@@ -1,1 +1,0 @@
-var sendMail = require('nodemailer');
