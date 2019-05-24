@@ -1,10 +1,10 @@
 {
-  "name": "totbot",
+  "name": "jokebot2019",
   "version": "0.0.1",
   "description": "botkit-middleware-watson with Botkit and send message in to slack.",
-  "main": "ToTbot.js",
+  "main": "jokebot2019.js",
   "scripts": {
-    "start": "node ToTbot.js"
+    "start": "node jokebot2019.js"
   },
   "license": "Apache-2.0",
   "dependencies": {
