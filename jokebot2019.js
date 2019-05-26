@@ -29,7 +29,7 @@ let smtpConfig = {
   port: 465,
   secure: true, // use TLS
   auth: {
-      user: 'testwatson36@gmail.com', 
+      user: 'example2019@gmail.com', 
       pass: 'taklamp1'
   }
 };
@@ -42,7 +42,7 @@ var middleware = require('botkit-middleware-watson')({
   password: process.env.ASSISTANT_PASSWORD,
   username: process.env.ASSISTANT_USERNAME,
   workspace_id: process.env.WORKSPACE_ID,
-  workspace_url: process.env.ASSISTANT_WORKSPACE_URL || 'https://gateway.watsonplatform.net/assistant/api',
+  workspace_url: process.env.ASSISTANT_WORKSPACE_URL || 'https://gateway.watsonplatform.net/example',
   version: '2018-07-10'
 });
 
@@ -80,9 +80,9 @@ slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'a
     function sendEmail(message, callback) {
       let transporter = nodemailer.createTransport(smtpConfig);
       let mailOptions = {
-          from: `jokebot2019 <${smtpConfig.auth.user}>`,
-          to: 'joseph.tebyasas@cooach.se', //params.email,
-          subject: `[Cooach] Hotels Booking: ${message.user + '--Question--' + message.text}`,
+          from: `example <${smtpConfig.auth.user}>`,
+          to: 'rabbit.run@example.com', //params.email,
+          subject: `[Enterprise-example] work-space-example: ${message.user + '--Question--' + message.text}`,
           text: `Do not reply just find user id in slack!`
       };
       transporter.sendMail(mailOptions, function (error, info) {
