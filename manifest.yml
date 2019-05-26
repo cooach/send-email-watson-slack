@@ -1,8 +1,8 @@
 ---
 applications:
-- name: jokebot2019
+- name: my-app-name
   random-route: true
   instances: 1
-  command: node jokebot2019.js
+  command: node my-app-name.js
   path: .
   memory: 256m
